@@ -8,5 +8,10 @@ public class githubcheck {
 		
 		
 		System.out.println("hello eclipse here");
+		
+		System.out.println("hello github");
+		
+		
+		System.out.println("hello eclipse");
 	}
 }
