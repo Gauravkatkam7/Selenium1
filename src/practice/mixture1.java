@@ -60,7 +60,7 @@ public class mixture1 {
 			System.out.println("button is not selected");
 		}
 		
-		driver.findElement(By.xpath(""))
+		
 	
 		
 		
