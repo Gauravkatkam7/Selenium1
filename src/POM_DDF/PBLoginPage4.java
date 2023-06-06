@@ -5,17 +5,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PBLoginPage1 {
+public class PBLoginPage4 {
 
 	@FindBy(xpath="//a[text()='Sign in']")private WebElement signIn;
 	
-	public PBLoginPage1(WebDriver driver)
+	public PBLoginPage4(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void clickPBLoginPage1signIN()
+	public void clickPBLoginPage4SignInBtn()
 	{
 		signIn.click();
 	}
+	
+	
+	
 }

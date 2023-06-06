@@ -1,4 +1,4 @@
-package POM_DDF;
+package TestNG_Practice;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,8 +13,7 @@ public class PBLoginPage1 {
 	{
 		PageFactory.initElements(driver, this);
 	}
-	
-	public void clickPBLoginPage1signIN()
+	public void clickPBLoginPage1SignInBtn()
 	{
 		signIn.click();
 	}
