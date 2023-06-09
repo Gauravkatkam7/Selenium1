@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_Practice.PBTestClass1_TestNG">
+      <class name="TestNG_Practice.PBTestClass2_TestNG">
         <methods>
-          <include name="test"/>
+          <include name="verifyFullName"/>
+          <include name="openBrowser"/>
+          <include name="logOutFromPB"/>
+          <include name="closeBrowser"/>
+          <include name="signInToPB"/>
         </methods>
-      </class> <!-- TestNG_Practice.PBTestClass1_TestNG -->
+      </class> <!-- TestNG_Practice.PBTestClass2_TestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

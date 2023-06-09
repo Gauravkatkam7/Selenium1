@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[TC Pass]]>
     </line>
+    <line>
+      <![CDATA[TC Pass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-06-06T15:15:57 IST" name="Default suite" finished-at="2023-06-06T15:16:24 IST" duration-ms="27426">
+  <suite started-at="2023-06-09T23:41:26 IST" name="Suite" finished-at="2023-06-09T23:42:13 IST" duration-ms="46678">
     <groups>
     </groups>
-    <test started-at="2023-06-06T15:15:57 IST" name="Default test" finished-at="2023-06-06T15:16:24 IST" duration-ms="27426">
+    <test started-at="2023-06-09T23:41:26 IST" name="Test" finished-at="2023-06-09T23:42:13 IST" duration-ms="46678">
+      <class name="TestNG_Practice.PBTestClass2_TestNG">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestNG_Practice.PBTestClass2_TestNG@2c35e847]" started-at="2023-06-09T23:41:51 IST" name="openBrowser" finished-at="2023-06-09T23:41:55 IST" duration-ms="4126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="signInToPB()[pri:0, instance:TestNG_Practice.PBTestClass2_TestNG@2c35e847]" started-at="2023-06-09T23:41:55 IST" name="signInToPB" finished-at="2023-06-09T23:42:08 IST" duration-ms="12981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInToPB -->
+        <test-method signature="verifyFullName()[pri:0, instance:TestNG_Practice.PBTestClass2_TestNG@2c35e847]" started-at="2023-06-09T23:42:08 IST" name="verifyFullName" finished-at="2023-06-09T23:42:10 IST" duration-ms="2473" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFullName -->
+        <test-method is-config="true" signature="logOutFromPB()[pri:0, instance:TestNG_Practice.PBTestClass2_TestNG@2c35e847]" started-at="2023-06-09T23:42:10 IST" name="logOutFromPB" finished-at="2023-06-09T23:42:13 IST" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromPB -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG_Practice.PBTestClass2_TestNG@2c35e847]" started-at="2023-06-09T23:42:13 IST" name="closeBrowser" finished-at="2023-06-09T23:42:13 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNG_Practice.PBTestClass2_TestNG -->
       <class name="TestNG_Practice.PBTestClass1_TestNG">
-        <test-method signature="test()[pri:0, instance:TestNG_Practice.PBTestClass1_TestNG@15aab8c6]" started-at="2023-06-06T15:15:57 IST" name="test" finished-at="2023-06-06T15:16:24 IST" duration-ms="27386" status="PASS">
+        <test-method signature="test()[pri:0, instance:TestNG_Practice.PBTestClass1_TestNG@3c73951]" started-at="2023-06-09T23:41:26 IST" name="test" finished-at="2023-06-09T23:41:51 IST" duration-ms="24444" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[TC Pass]]>
@@ -18,6 +46,6 @@
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- TestNG_Practice.PBTestClass1_TestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
