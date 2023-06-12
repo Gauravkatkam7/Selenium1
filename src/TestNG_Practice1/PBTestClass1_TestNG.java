@@ -1,4 +1,4 @@
-package TestNG_Practice;
+package TestNG_Practice1;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

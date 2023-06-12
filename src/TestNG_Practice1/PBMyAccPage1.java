@@ -1,23 +1,25 @@
-package TestNG_Practice;
+package TestNG_Practice1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PBMyAccPage2 {
+public class PBMyAccPage1 {
 
 	@FindBy(xpath="//span[text()=' My profile ']")private WebElement myProfile;
 	
-	public PBMyAccPage2(WebDriver driver)
+	public PBMyAccPage1(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
-	
-	public void clickPBMyAccPage2MyProfile()
+	public void clickPBMyAccPage1MyprofileBtn()
 	{
 		myProfile.click();
 	}
+	
+
+
 
 
 

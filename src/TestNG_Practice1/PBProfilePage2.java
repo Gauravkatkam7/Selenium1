@@ -1,4 +1,4 @@
-package TestNG_Practice;
+package TestNG_Practice1;
 
 import java.util.ArrayList;
 import java.util.Set;
