@@ -10,10 +10,10 @@ public class sample1 {
 		System.out.println("running TC1");
 	}
 	
-	@Test
+	@Test(dependsOnMethods="TC1")
 	public void TC2()
 	{
-		System.out.println("running TC2");
+		System.out.println("running TC2")
 	}
 	
 	@Test

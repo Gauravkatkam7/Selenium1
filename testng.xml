@@ -3,8 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestNG_Practice.PBTestClass1_TestNG"/>
-      <class name="TestNG_Practice.PBTestClass2_TestNG"/>
+      <class name="TestNG_practice2.example5_disableTestCaseExecutionFromTestClassAndTestSuit">
+      <methods>
+      <exclude name="TC2"></exclude>
+      </methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -5,20 +5,20 @@ import org.testng.annotations.Test;
 public class sample2 {
 
 	@Test
-	public void TC1()
+	public void TC4()
 	{
-		System.out.println("running TC1");
+		System.out.println("running TC4");
 	}
 	
 	@Test
-	public void TC2()
+	public void TC5()
 	{
-		System.out.println("running TC2");
+		System.out.println("running TC5");
 	}
 	
-	@Test
-	public void TC3()
+	@Test(dependsOnMethods="TC5")
+	public void TC6()
 	{
-		System.out.println("running TC3");
+		System.out.println("running TC6")
 	}
 }

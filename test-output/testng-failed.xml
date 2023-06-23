@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_practice2.example5_assertClass_multiVerificationInOneMethod">
+      <class name="POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2">
         <methods>
-          <include name="TC1"/>
+          <include name="openBrowser"/>
+          <include name="verifyFullName"/>
+          <include name="signInToApp"/>
+          <include name="closeBrowser"/>
+          <include name="logOutFromBrowser"/>
         </methods>
-      </class> <!-- TestNG_practice2.example5_assertClass_multiVerificationInOneMethod -->
+      </class> <!-- POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
