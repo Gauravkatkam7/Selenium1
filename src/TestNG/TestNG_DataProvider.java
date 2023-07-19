@@ -26,7 +26,7 @@ public class TestNG_DataProvider
 		driver.findElement(By.xpath("//button[@name=\"login\"]")).click();
 		Thread.sleep(4000);
 		Assert.assertTrue(driver.findElement(By.xpath("//a[text()='Forgotten account?']")).isDisplayed());
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		driver.quit();	
 	}
 	

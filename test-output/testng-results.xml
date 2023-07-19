@@ -1,40 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-21T17:35:33 IST" name="Default suite" finished-at="2023-06-21T17:35:55 IST" duration-ms="21833">
+  <suite started-at="2023-07-07T17:57:34 IST" name="Suite" finished-at="2023-07-07T17:57:51 IST" duration-ms="16083">
     <groups>
     </groups>
-    <test started-at="2023-06-21T17:35:33 IST" name="Default test" finished-at="2023-06-21T17:35:55 IST" duration-ms="21833">
-      <class name="POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2@58695725]" started-at="2023-06-21T17:35:33 IST" name="openBrowser" finished-at="2023-06-21T17:35:39 IST" duration-ms="5778" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="signInToApp()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2@58695725]" started-at="2023-06-21T17:35:39 IST" name="signInToApp" finished-at="2023-06-21T17:35:45 IST" duration-ms="6424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signInToApp -->
-        <test-method signature="verifyFullName()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2@58695725]" started-at="2023-06-21T17:35:45 IST" name="verifyFullName" finished-at="2023-06-21T17:35:52 IST" duration-ms="6995" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFullName -->
-        <test-method is-config="true" signature="logOutFromBrowser(org.testng.ITestResult)[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2@58695725]" started-at="2023-06-21T17:35:52 IST" name="logOutFromBrowser" finished-at="2023-06-21T17:35:52 IST" duration-ms="4" status="PASS">
+    <test started-at="2023-07-07T17:57:34 IST" name="Test1" finished-at="2023-07-07T17:57:42 IST" duration-ms="8051">
+      <class name="TestNG_practice2.example11_MultiBrowsingTesting">
+        <test-method signature="sample(java.lang.String)[pri:0, instance:TestNG_practice2.example11_MultiBrowsingTesting@4de4b452]" started-at="2023-07-07T17:57:34 IST" name="sample" finished-at="2023-07-07T17:57:42 IST" duration-ms="8008" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFullName status=SUCCESS method=PBTestClass2.verifyFullName()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2@58695725] output={null}]]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOutFromBrowser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2@58695725]" started-at="2023-06-21T17:35:52 IST" name="closeBrowser" finished-at="2023-06-21T17:35:55 IST" duration-ms="2581" status="PASS">
+        </test-method> <!-- sample -->
+      </class> <!-- TestNG_practice2.example11_MultiBrowsingTesting -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-07-07T17:57:43 IST" name="Test2" finished-at="2023-07-07T17:57:46 IST" duration-ms="3765">
+      <class name="TestNG_practice2.example11_MultiBrowsingTesting">
+        <test-method signature="sample(java.lang.String)[pri:0, instance:TestNG_practice2.example11_MultiBrowsingTesting@1de76cc7]" started-at="2023-07-07T17:57:43 IST" name="sample" finished-at="2023-07-07T17:57:46 IST" duration-ms="3761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- POM_DDF_TestNG_BaseClass_UtilityClass_CaptureSSOfFailedTCes_PropertyFile.PBTestClass2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- sample -->
+      </class> <!-- TestNG_practice2.example11_MultiBrowsingTesting -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-07-07T17:57:46 IST" name="Test3" finished-at="2023-07-07T17:57:51 IST" duration-ms="4220">
+      <class name="TestNG_practice2.example11_MultiBrowsingTesting">
+        <test-method signature="sample(java.lang.String)[pri:0, instance:TestNG_practice2.example11_MultiBrowsingTesting@57cf54e1]" started-at="2023-07-07T17:57:46 IST" name="sample" finished-at="2023-07-07T17:57:51 IST" duration-ms="4215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- TestNG_practice2.example11_MultiBrowsingTesting -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
 </testng-results>

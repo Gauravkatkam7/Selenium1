@@ -87,26 +87,27 @@ public class rahultshettypractice {
 //		
 //		driver.findElement(By.xpath("//a[text()='Courses']")).click();
 //		
-//	System.out.println("===========switch to alert example============");
-//	
-//	driver.findElement(By.xpath("//input[@placeholder=\"Enter Your Name\"]")).sendKeys("gaurav");
-//	
-//	driver.findElement(By.xpath("//input[@id=\"alertbtn\"]")).click();
-//	Thread.sleep(2000);
-//	String text = driver.switchTo().alert().getText();
-//	String actual = text.substring(0, 12);
-//	//System.out.println(actual);
-//	String exp="Hello gaurav";
-//	if(exp.equals(actual))
-//	{
-//		Reporter.log("TC pass",true);
-//	}
-//	else
-//	{
-//		Reporter.log("TC Fail",true);
-//	}
-//	
-//	driver.switchTo().alert().accept();
+	System.out.println("===========switch to alert example============");
+	
+	driver.findElement(By.xpath("//input[@placeholder=\"Enter Your Name\"]")).sendKeys("gaurav");
+	
+	driver.findElement(By.xpath("//input[@id=\"alertbtn\"]")).click();
+	Thread.sleep(2000);
+	String text = driver.switchTo().alert().getText();
+	String actual = text.substring(0, 12);
+	System.out.println(actual);
+	String exp="Hello gaurav";
+	if(exp.equals(actual))
+	{
+		Reporter.log("TC pass",true);
+	}
+	else
+	{
+		Reporter.log("TC Fail",true);
+	}
+	
+	
+	driver.switchTo().alert().accept();
 
 //		Reporter.log("============hide element==========",true);
 //		
@@ -156,14 +157,14 @@ public class rahultshettypractice {
 //			Reporter.log("TC fail",true);
 //		}
 		
-		Reporter.log("============iframe==========");
-		
-		driver.switchTo().frame("iframe-name");
-		WebElement js = driver.findElement(By.xpath("//a[text()='Job Support']"));
-		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",js);
-		Thread.sleep(2000);
-		js.click();
-	
+//		Reporter.log("============iframe==========");
+//		
+//		driver.switchTo().frame("iframe-name");
+//		WebElement js = driver.findElement(By.xpath("//a[text()='Job Support']"));
+//		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",js);
+//		Thread.sleep(2000);
+//		js.click();
+//	
 		
 		
 		
